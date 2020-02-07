@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/Grade"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grade "
+        android:textColor="#000"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="50dp"/>
+
+    <TextView
+
+        android:id="@+id/tGrade"
+        android:layout_width="80dp"
+        android:text="1551"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/Hours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hours "
+        android:textColor="#000"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="15dp"/>
+
+    <TextView
+        android:id="@+id/tHour"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:text="sdasdwd"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/closeRow"
+        android:text="X"
+        android:textSize="10sp"
+        android:textColor="#DD0000"
+        android:layout_width="20sp"
+        android:layout_height="20sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="0dp"
+        android:background="#FFFFFF"/>
+
+</LinearLayout>
